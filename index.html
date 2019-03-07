@@ -1,18 +1,179 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SJC Press || Breaking News</title>
 	<style type="text/css">
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		main {
+			margin: 10px 100px 10px 250px;
+			font-size: 20px;
+		}
+
 		h1 {
 			text-transform: uppercase;
+			font-size: 50px;
+			font-weight: 200
 		}
+		h2{
+			color: lightgray;
+		}
+		h4	{
+			text-align: center;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 30px;
+			border-top: 2px solid gray;
+			padding-top: 30px;
+		}
+
+		#publication-name {
+			font-family: 'Times New Roman', Times, serif;
+			text-align: center;
+			font-size: 100px;
+		}
+
+		#article-headline {
+			background-color: red;
+			padding: 70px;
+			color: white;
+		}
+
+		#date {
+			color: black;
+		}
+
+		.border {
+			border: 25px solid lightgray;
+		}
+
+		.right {
+			float: right;
+		}
+
+		.left {
+			float: left;
+		}
+		figcaption {
+			margin: -27px;
+			text-align: center;
+		}
+		p	{
+			padding: 15px;
+			margin: 15px;
+		}
+
 	</style>
 </head>
+
 <body>
 	<header>
-		<h1>SJC Press</h1>
+		<h1 id="publication-name">SJC Press</h1>
+		<h4>The Official Press of St. Joseph Center</h4>
 	</header>
 	<article>
+		<header id="article-headline">
+			<h1>Bears found to speak Bear Language</h1>
+			<h2>Found to be the Same Across all Bear Species</h2>
+			<p id="date">August 1, 2017 || By: Sharon Plunket</p>
+		</header>
+		<main>
+			<div>
+				<figure class="right">
+					<img src="./images/polar-bears-whisper.jpg"
+						alt="Super adorable polar bears, whispering sweet nothings into each others ears;)"
+						class="border" width="600">
+					<figcaption>Polar bears having a conversation</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis, massa a imperdiet molestie,
+					tortor eros volutpat mi, eget hendrerit sapien leo at turpis. Class aptent taciti sociosqu ad litora
+					torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus est vel mollis dapibus.
+					Suspendisse sem tortor, tempus non ante eu, luctus rutrum nisl. Praesent ac justo purus. Donec ut
+					felis id turpis varius euismod id in dolor. Ut fringilla et turpis lobortis vulputate. Suspendisse
+					risus vel metus tristique sollicitudin a tincidunt orci. Phasellus ac consequat sem. Donec sagittis
+					aliquam lectus eu imperdiet. Sed sem mauris, accumsan eget bibendum et, scelerisque vitae lectus.
+				</p>
+
+				<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam lacus
+					sem, imperdiet vel semper vel, accumsan a nibh. Vestibulum pharetra lectus turpis, et lobortis
+					tellus mollis at. Maecenas varius tincidunt enim a finibus. Sed scelerisque dolor id risus facilisis
+					vestibulum. Praesent vitae suscipit elit, quis tempus metus. Aenean mollis risus vitae nibh
+					consectetur auctor.
+				</p>
+
+
+
+
+				<h3><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></h3>
+
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
+					<li>Lorem ipsum dolor sit..</li>
+					<li>LConsectetur adipiscingorem ipsum dolor sit amet.</li>
+				</ul>
+			</div>
+			<div>
+				<figure class="left">
+					<img src="./images/grizzlies-argue.jpg"
+						alt="Grizzly Bears having a heated conversation, one of them looks distraught" width="500">
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis mollis lacus et blandit.
+					Donec sollicitudin eget magna sit amet tempor. Nam urna nisi, tincidunt non tellus ac, posuere
+					dapibus turpis. Donec lectus eros, lacinia nec imperdiet non, malesuada in leo. In quis porta orci,
+					non tempus mi. In vehicula rutrum turpis sed bibendum. Nulla nec nibh vehicula, lobortis nibh sed,
+					pulvinar enim. Maecenas sit amet elit quis risus fringilla bibendum. Curabitur a nulla tempor,
+					lobortis enim iaculis, egestas nisl. Cras rhoncus tellus quis felis elementum blandit. Nulla
+					facilisi. Integer gravida velit velit, vel convallis justo malesuada in. Mauris eget mi et neque
+					semper gravida malesuada at tortor. Aenean eget diam velit.</p>
+				<p>Sed ante felis, lacinia dapibus urna ac, mattis euismod magna. Nunc lacinia lacinia diam, ut
+					fermentum libero pulvinar ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. In
+					viverra vehicula metus at hendrerit. Nullam lacus ipsum, semper sed sem in, ultrices cursus mauris.
+					In ac ante augue. Suspendisse ut consequat purus. Pellentesque eget lobortis libero.</p>
+					<figure class="right">
+							<img src="./images/happy-bear.jpg" alt="This grizzly bear looks pretty tired ;)" class="border"
+								height="550">
+							<figcaption>Grizzlies appear to be most social</figcaption>
+						</figure>
+				<p>Pellentesque orci turpis, sodales nec urna quis, tincidunt tincidunt magna. Cras ut vulputate lectus.
+					Nunc in justo pulvinar, aliquet est sed, luctus felis. Quisque porta mollis leo a tristique. Aliquam
+					porta risus at mi condimentum, at consectetur eros posuere. Quisque porttitor sollicitudin felis, a
+					euismod massa tempor eu. Ut non massa bibendum, imperdiet dui nec, cursus nibh. Phasellus convallis
+					elit vel nisl tincidunt gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+					posuere cubilia Curae; Vestibulum venenatis mauris felis, id aliquet dolor commodo sit amet. Donec
+					sed nulla faucibus, euismod augue in, accumsan justo. Ut dignissim, metus quis luctus tempus, felis
+					justo pulvinar velit, ut sollicitudin nisi erat laoreet lacus. Donec tincidunt auctor ornare.</p>
+			</div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis nibh vitae dapibus euismod.
+					Donec volutpat efficitur bibendum. Morbi non risus sit amet enim lacinia sagittis. Nunc pulvinar
+					libero euismod felis posuere laoreet. Mauris pulvinar erat ut maximus imperdiet. Sed magna nisl,
+					lobortis eu fringilla sed, fringilla in lacus. Nunc at dolor vel purus maximus pretium ac eget
+					lacus. Vestibulum feugiat quam ac libero vestibulum, porta vehicula enim finibus. Vivamus porta
+					felis est, sed fringilla ipsum fringilla vel. Aliquam arcu dui, vestibulum molestie lacus vel,
+					lacinia vehicula nibh. Suspendisse potenti. Aliquam sed eros dui. Sed cursus erat id quam elementum
+					euismod. In hac habitasse platea dictumst. Nunc leo ipsum, hendrerit nec neque sit amet, consectetur
+					pharetra sapien.</p>
+					<figure class="left">
+							<img src="./images/pandas.jpg" alt="These adorable pandas are eating sticks. Yumm" width="500">
+						</figure>
+				<p>Nam vulputate nulla non bibendum vulputate. Curabitur ut lacus vel mi tempor dapibus vel vitae eros.
+					Mauris semper hendrerit nibh. Sed lobortis mauris metus, et pharetra nunc vehicula sit amet. Nunc
+					imperdiet turpis sit amet erat egestas, ut hendrerit ante imperdiet. Curabitur maximus elit orci,
+					vitae congue justo posuere elementum. Donec vitae condimentum nulla. Sed consequat eu mi ullamcorper
+					posuere. Sed sed risus tincidunt, sodales risus non, pharetra lectus. Vivamus in faucibus arcu. Sed
+					sed erat dignissim, feugiat velit blandit, pellentesque mauris. Duis bibendum elementum metus, id
+					feugiat leo venenatis id. Aenean vitae lacus et risus bibendum aliquam id vitae ligula. Nam luctus
+					orci ut mauris blandit, a laoreet justo suscipit.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam lacus Sed sed risus tincidunt, sodales risus non, pharetra lectus. Vivamus in faucibus arcu. SedSed sed risus tincidunt, sodales risus non, pharetra lectus. Vivamus in faucibus arcu. Sed</p>
+			</div>
+			<div>
+
+			</div>
+
+
+		</main>
 	</article>
 </body>
+
 </html>
